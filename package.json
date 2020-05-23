@@ -1,15 +1,19 @@
 {
-  "name": "Navegador-flutante-com-Electron",
+  "name": "Electron-Watch",
   "version": "1.0.0",
-  "description": "Projeto desenvolvido na vídeo Code/Drops #30 da Rocketseat",
+  "description": "puts a permanent watch on your screen",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dev": "nodemon --watch * --exec electron ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "electron": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
